@@ -20,13 +20,14 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.spruce {
-    display: flex;
-    flex-direction: column;
-}
 
 .spruce-image{
     box-shadow: 10px 10px 5px gray;
+}
+
+.spruce {
+    display: flex;
+    flex-direction: column;
 }
 
 hr.dashed{
