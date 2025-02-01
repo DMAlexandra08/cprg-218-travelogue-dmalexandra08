@@ -2,7 +2,6 @@
     box-sizing: border-box
 }
 
-
 body{
     background-color: #CFC1F0;
 }
@@ -14,6 +13,11 @@ hr.rounded{
 
 h1{
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .spruce {
