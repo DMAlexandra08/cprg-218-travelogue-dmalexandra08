@@ -3,9 +3,8 @@
 }
 
 main{
-    display: grid;
-    grid-template-columns: repeat(4,1);
-    gap: 3rem;
+    display: flex;
+    gap: 1rem;
 }
 
 body{
@@ -21,23 +20,19 @@ h1{
     text-align: center;
 }
 
-.Spruce{
-    text-align: right;
-}
-
-.TBird{
-    text-align: right;
-}
-
 .spruce-image{
     box-shadow: 10px 10px 5px gray;
 
 }
 
+
+
 .brandon-image{
     box-shadow: 10px 10px 5px gray;
 
 }
+
+
 
 .tbird-image{
     box-shadow: 10px 10px 5px gray;
