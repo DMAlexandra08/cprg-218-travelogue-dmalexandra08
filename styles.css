@@ -2,10 +2,6 @@
     box-sizing: border-box
 }
 
-main{
-    display: flex;
-    gap: 1rem;
-}
 
 body{
     background-color: #CFC1F0;
@@ -20,22 +16,41 @@ h1{
     text-align: center;
 }
 
-.spruce-image{
-    box-shadow: 10px 10px 5px gray;
-
+.spruce {
+    display: flex;
+    flex-direction: column;
 }
 
+.spruce-image{
+    box-shadow: 10px 10px 5px gray;
+}
 
+hr.dashed{
+    border-top: 3px dashed #524C5F;
+}
 
 .brandon-image{
     box-shadow: 10px 10px 5px gray;
 
 }
 
-
+.brandon {
+    display: flex;
+    flex-direction: column;
+}
 
 .tbird-image{
     box-shadow: 10px 10px 5px gray;
 
 }
 
+.t-bird {
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #524C5F;
+    color: white;
+    text-align: center;
+}
