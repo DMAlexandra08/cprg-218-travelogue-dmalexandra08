@@ -6,52 +6,34 @@ body{
     background-color: #CFC1F0;
 }
 
-hr.rounded{
-    border-top: 6px solid #524C5F;
-    border-radius: 5px;
-}
-
 h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    border-bottom: 3px solid #524C5F;
 }
 
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-.spruce-image{
-    box-shadow: 10px 10px 5px gray;
-}
-
-.spruce {
+section {
     display: flex;
-    flex-direction: column;
+    padding: 0 2rem 3rem 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px dashed #524C5F;
 }
 
-hr.dashed{
-    border-top: 3px dashed #524C5F;
-}
-
-.brandon-image{
+section img {
     box-shadow: 10px 10px 5px gray;
-
+    display: block;
 }
 
-.brandon {
-    display: flex;
-    flex-direction: column;
+img.left{
+    margin-right: 2rem;
 }
 
-.tbird-image{
-    box-shadow: 10px 10px 5px gray;
-
-}
-
-.t-bird {
-    display: flex;
-    flex-direction: column;
+img.right{
+    margin-left: 2rem;
 }
 
 footer{
@@ -59,4 +41,5 @@ footer{
     color: white;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    margin-top: 5rem;
 }
